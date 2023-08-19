@@ -3,7 +3,7 @@ function inserir(num) {
     document.getElementById('resultado').innerHTML = digito + num;
 }
 function calc() {
-    var resultado = document.getElementById('resultado').innerHTML;
+    let resultado = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = eval(resultado);
 }
 function limpa() {
